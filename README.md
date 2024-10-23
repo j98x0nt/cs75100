@@ -1,1 +1,20 @@
-# cs75100
+java c
+Climate Change Economics
+Undergraduate Assignment 7
+OverviewThis assignment has three parts: 1) you will extend the Excel model such that the impacts from climate change are related in a more interesting way to the level of economic development, 2) investigate the effect of different income elasticities on damages and 3) clean up your model.
+Part I: ModelingWe will add a slight twist to the damage function this week. Previously, we had assumed that a given temperature increase would always cause the same loss as a share of income, independently of the level of income. So, whether we assumed a high income or a low income, a 3° warming would always cause the same loss as a percent of income. You will replace that damage function with one that has an additional parameter, namely an income elasticity of impacts. We can specify a more nuanced relationship between economic impacts and income levels with this new parameter. You should change the damage function equation from last week to the following format (the new term is marked in the equation):Y#  should be set to gross income in the base year of the model, i.e. GDP in the year 2015. Y!   is gross income in year t, and ε is called an income elasticity, which you should set to 0 for the base case. ε is the parameter you will vary in the second part of the exercise.
+Part II: Policy Analysis
+Question 1: How do damages in dollar terms change compared to last week’s model if you set the income elasticity to -0.25, 0.0 and 0.25?You should create a new copy of your model for each of these three cases (one Excel sheet for each). You should then add as another sheet the model from last week. Finally, on a new sheet, create a graph that plots damages in dollars for each of these four cases over time (last week’s model, and the three models with different income elasticities you created this week).
+Write one short sentence for each of the three income elasticity cases that describes how damages differ from the damages in last week’s model.
+Part III: Clean-up
+You should 代 写Climate Change Economics Undergraduate Assignment 7Java
+代做程序编程语言use this week to clean up any chaos that might have accumulated on your Excel sheet over the last couple of weeks. Things to look out for:
+•   Do you have your different components clearly separated on your Excel sheet? You should have the following components: carbon cycle model, climate dynamics, emissions, emission reduction, economy (also called the Solow growth model) and impacts. Each component should have a heading and all the parameters, variables and forcings for that component should be in rows below that heading.
+•   In each component, do you have a clear separation between parameters, forcings and variables? You should have sub-headings under each component for these three categories of rows.
+•   Do you have lots of duplications of variables, i.e. do you have multiple rows within one component that represent the same variable? If so, try to solidify those. If you have a variable duplicated across two components for coupling you can leave those as they are.
+•   Have you color coded things consistently?
+•   Are there any rows left that are not used by anything anymore? For example, we replaced the original income/GDP per capita calculation with the Solow growth model, so you probably have a couple of rows left from that original exercise that are no longer needed and that you can remove.You can take a look at the solution for a previous homework assignment we posted for guidance. You don’t have to adhere to the structure a  100%, but it should give you a good blueprint. Also, the above list is not comprehensive, so if you can think of anything else specific to your Excel sheet that might improve things, go ahead and do it. Finally, if you have gotten feedback from your GSI on previous assignments that concerned organization of your Excel sheet, make sure you address all of those points.
+For some of you there might be nothing to do for this part of the assignment because your Excel sheets are in perfect order. Good for you, no need to change anything in that case!
+
+         
+加QQ：99515681  WX：codinghelp  Email: 99515681@qq.com
